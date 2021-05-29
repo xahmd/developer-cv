@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+img {
+    width: 60%;
+}
+.card-2 {
+  max-height: 1200px;
+
+
+}
+
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-title h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+.section-title h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #ff0000;
+    bottom: 0;
+    left: calc(50% - 25px);
+  }
+
+.section-title p {
+    font-size: 18px;
+    padding: 0 30px;
+    margin: 0 5px;
+}
+
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-image: url('../bg.jpg');
+}
+
+.intro {
+  height: 200px;
+  position: relative;
+  color: #fff;
+  padding: 80px 0px;
+}
+
+.head-title {
+  padding: 1px;
+}
+
+
+
+#About .content ul {
+    list-style: none;
+    padding: 1;
+}
+
+
+
+
+  /* this code from stackoverflow */
+#Skills .progress {
+    height: 50px;
+    display: block;
+    background: none;
+    border-radius: none;
+  }
+  
+  #Skills .progress .skill {
+    padding: 10px 0;
+    margin: 0 0 6px 0;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+  }
+  
+  #Skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  #Skills .full {
+    background: #f3f3f3;
+  }
+  
+  #Skills .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.5s;
+    background-color: #ff0101;
+  }
+  #Skills .progress-bar-orange {
+    width: 1px;
+    height: 10px;
+    transition: 0.5s;
+    background-color: #ff5a01;
+  }
+  #Skills .progress-bar-purple {
+    width: 1px;
+    height: 10px;
+    transition: 0.5s;
+    background-color: purple;
+  }
+/* end */
+
+
+
+
+#footer {
+    background: lightgray;
+    padding: 30px 0;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+  }
+
+
+
+@media screen and (max-width: 500px) {
+  .intro {
+    padding: 40px 0px;
+  }
+
+  .head-title {
+    padding: 0;
+    text-align: center;
+  }
+
+  .head-title h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+
+  .head-title h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+  }
+
+  .back-to-top {
+    bottom: 15px;
+  }
+}
+.amg {
+  display: inline-block;
+  margin: 75px;
+  padding: 10px 0px 12px;
+  max-width: 50%;
+
+
+
+
+}
