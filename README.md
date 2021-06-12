@@ -6,19 +6,17 @@
 
 ## Project setup
 ```
-npm install
+npm install or npm i
 ```
 
-### Compiles and hot-reloads for development
+### run the project on the local host
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### build the dist file
 ```
 npm run build
 ```
 
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Made By Ahmed.
